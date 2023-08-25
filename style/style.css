@@ -1,0 +1,12 @@
+body {
+  background-color: bisque;
+}
+
+@font-face {
+  font-family: printvetica;
+  src: url(../assets/Printvetica.otf);
+}
+
+h1 {
+  font-family: printvetica;
+}
