@@ -1,5 +1,6 @@
 body {
   background-color: bisque;
+  font-family: printvetica;
 }
 
 @font-face {
@@ -9,4 +10,20 @@ body {
 
 h1 {
   font-family: printvetica;
+}
+
+.bread {
+  width: 150px;
+}
+
+.butter {
+  width: 200px;
+}  
+
+.jam {
+  width: 150px;
+}
+
+.jelly {
+  width: 100px;
 }
