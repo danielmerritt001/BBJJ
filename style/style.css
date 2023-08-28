@@ -1,6 +1,7 @@
 body {
   background-color: bisque;
   font-family: printvetica;
+  overflow-wrap: normal;
 }
 
 @font-face {
@@ -26,4 +27,8 @@ h1 {
 
 .jelly {
   width: 100px;
+}
+
+.intro {
+  max-width: 75%;
 }
