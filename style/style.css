@@ -58,3 +58,67 @@ table {
   border: none;
   border-radius: 25px;
 }
+
+.scroll-left {
+  height: 50px;	
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  background: yellow;
+  color: orange;
+  border: 1px solid orange;
+}
+
+.scroll-left p {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  line-height: 50px;
+  text-align: center;
+  /* Starting position */
+  transform:translateX(100%);
+  /* Apply animation to this element */
+  animation: scroll-left 10s linear infinite;
+ }
+ /* Move it (define the animation) */
+ @keyframes scroll-left {
+  0%   {
+  transform: translateX(100%); 		
+  }
+  100% {
+  transform: translateX(-100%); 
+  }
+}
+
+.scroll-right {
+  height: 50px;	
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  background: yellow;
+  color: orange;
+  border: 1px solid orange;
+}
+
+.scroll-right p {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  line-height: 50px;
+  text-align: center;
+  /* Starting position */
+  transform:translateX(100%);
+  /* Apply animation to this element */
+  animation: scroll-right 10s linear infinite;
+ }
+ /* Move it (define the animation) */
+ @keyframes scroll-right {
+  0%   {
+  transform: translateX(-100%); 		
+  }
+  100% {
+  transform: translateX(100%); 
+  }
+ }
