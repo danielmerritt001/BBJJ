@@ -35,10 +35,18 @@ h1 {
 
 .new-here{
   width: 100%;
+  color: purple;
   background-color: green;
   padding: 3px;
   text-align: center;
+  cursor: pointer;
 }
+
+.new-here:hover {
+  color: green;
+  background-color: purple;
+}
+
 
 .table-cell{
   border: solid 1px black;
@@ -80,9 +88,9 @@ table {
   transform:translateX(100%);
   /* Apply animation to this element */
   animation: scroll-left 10s linear infinite;
- }
+}
  /* Move it (define the animation) */
- @keyframes scroll-left {
+@keyframes scroll-left {
   0%   {
   transform: translateX(100%); 		
   }
@@ -112,13 +120,13 @@ table {
   transform:translateX(100%);
   /* Apply animation to this element */
   animation: scroll-right 10s linear infinite;
- }
+}
  /* Move it (define the animation) */
- @keyframes scroll-right {
+@keyframes scroll-right {
   0%   {
   transform: translateX(-100%); 		
   }
   100% {
   transform: translateX(100%); 
   }
- }
+}
